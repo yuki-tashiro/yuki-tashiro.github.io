@@ -36,7 +36,7 @@ author_profile: true
 ## Publications
 
 ### International Conference
-* <u>Yuki Tashiro</u>, Seiji Shimizu, Tomohiro Nishiyama, Shoko Wakamiya, and Eiji Aramaki. "MedNormJ: A Benchmark Dataset for Medical Concept Normalization in Japanese Clinical Documents." Proceedings of the 8th Clinical Natural Language Processing Workshop (ClinicalNLP 2026, Workshop), 2026/05(<span style="color:red;">Oral</span>, top 19% of accepted papers).
+* <u>Yuki Tashiro</u>, Seiji Shimizu, Tomohiro Nishiyama, Shoko Wakamiya, and Eiji Aramaki. "MedNormJ: A Benchmark Dataset for Medical Concept Normalization in Japanese Clinical Documents." Proceedings of the 8th Clinical Natural Language Processing Workshop (ClinicalNLP 2026, Workshop), 2026/05(<span style="color: tomato; ">**Oral**</span>, top 33% of accepted papers).
 * Yuta Nakamura, Koji Fujimoto, Jonas Kluckert, Michael Krauthammer, Jun Kanzawa, Akira Katayama, Tomohiro Kikuchi, Ryo Kurokawa, Wataru Gonoi, Peitao Han, <u>Yuki Tashiro</u>, Suntaro Yada, and Eiji Aramaki. "NTCIR-18 RadNLP 2024 Overview: Dataset and Solutions for Automated Lung Cancer Staging." Proceedings of the NTCIR-18 Conference, 2025.
 * <u>Yuki Tashiro</u>, Yuta Nakamura, and Eiji Aramaki. "SOCIOCOM at the NTCIR-18 RadNLP Main Task: Zero-Shot LLM Approaches for Lung Cancer Staging." NII Institutional Repository, 2025.
 
