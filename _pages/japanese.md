@@ -7,20 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-## プロフィール
-======
+## Profile
 奈良先端科学技術大学院大学 先端科学技術研究科 博士前期課程に所属しています。
 
 ソーシャル・コンピューティング研究室にて、医療言語処理に関する研究に取り組んでいます。
 
-## 研究関心
-======
+## Interests
 * AIの医療応用
 * 医療自然言語処理
 * マルチモーダルモデルの医療応用
 
-## 学歴
-======
+## Education
 * 2025.04 - 現在: 奈良先端科学技術大学院大学 先端科学技術研究科 先端科学技術専攻 情報科学領域
   * ソーシャル・コンピューティング研究室
   * 博士前期課程（2027.03 卒業見込）
@@ -37,25 +34,19 @@ author_profile: true
 
 
 ## Publications
-======
 
 ### International Conference
-======
-* <u>Yuki Tashiro</u>, MedNormJ: A Benchmark Dataset for Medical Concept Normalization in Japanese Clinical Documents
-
-* Nakamura, Yuta and Fujimoto, Koji and Kluckert, Jonas and Krauthammer, Michael and Kanzawa, Jun and Katayama, Akira and Kikuchi, Tomohiro and Kurokawa, Ryo and Gonoi, Wataru and Han, Peitao and <u>Tashiro, Yuki</u> and Yada, Suntaro and Aramaki, Eiji. "NTCIR-18 RadNLP 2024 Overview: Dataset and Solutions for Automated Lung Cancer Staging." Proceedings of the NTCIR-18 Conference
-* <u>Yuki Tashiro</u>, Yuta Nakamura, Eiji Aramaki. "SOCIOCOM at the NTCIR-18 RadNLP Main task: Zero-Shot LLM Approaches for Lung Cancer Staging" NII Institutional Repository, 2025.
+* <u>Yuki Tashiro</u>, Seiji Shimizu, Tomohiro Nishiyama, Shoko Wakamiya, and Eiji Aramaki. "MedNormJ: A Benchmark Dataset for Medical Concept Normalization in Japanese Clinical Documents." Proceedings of the 8th Clinical Natural Language Processing Workshop (ClinicalNLP 2026, Workshop), 2026/05.
+* Yuta Nakamura, Koji Fujimoto, Jonas Kluckert, Michael Krauthammer, Jun Kanzawa, Akira Katayama, Tomohiro Kikuchi, Ryo Kurokawa, Wataru Gonoi, Peitao Han, <u>Yuki Tashiro</u>, Suntaro Yada, and Eiji Aramaki. "NTCIR-18 RadNLP 2024 Overview: Dataset and Solutions for Automated Lung Cancer Staging." Proceedings of the NTCIR-18 Conference, 2025.
+* <u>Yuki Tashiro</u>, Yuta Nakamura, and Eiji Aramaki. "SOCIOCOM at the NTCIR-18 RadNLP Main Task: Zero-Shot LLM Approaches for Lung Cancer Staging." NII Institutional Repository, 2025.
 
 
-* MedNormJ：日本語医療テキストにおける病名正規化のための文脈付きデータセットの構築
-  * NLP2026
-
-* 日本語医療用語に対する様々な正規化手法の評価
-  * 第265回自然言語処理研究会 (NL研)
+## Domestic Conference
+* <u>田代 勇希</u>, 清水 聖司, 西山 智弘, 若宮 翔子, 荒牧 英治. MedNormJ：日本語医療テキストにおける病名正規化のための文脈付きデータセットの構築. NLP2026, 2026/03.
+* <u>田代 勇希</u>, 清水 聖司, 久田 祥平, 西山 智弘, 若宮 翔子, 荒牧 英治. 日本語医療用語に対する様々な正規化手法の評価. 第265回自然言語処理研究会（NL研）, 2025/09.
 
 
-## 職務・研究経験
-======
+## Internship
 * 2025.09 - 現在: Direava 株式会社
   * NEDO「GENIAC」プロジェクト「外科手術支援のための視覚・言語統合型AI基盤モデルの開発」に従事
   * VLMのモデル開発を担当
@@ -78,7 +69,6 @@ author_profile: true
   * アーキテクチャに関する基礎研究
 
 ## Awards
-======
 * 第20回言語処理若手シンポジウム (YANS2025) コンペティション 2位
 * 第20回言語処理若手シンポジウム (YANS2025) 発表
 * 第6回眼科AI学会総会 AIコンペティション 8位
@@ -88,7 +78,6 @@ author_profile: true
 * トビタテ！留学 JAPAN 日本代表プログラム 第15期 採択
 
 ## Skills
-======
 * Languages: Python, Linux, C
 
 * 機械学習・開発環境
@@ -105,7 +94,6 @@ author_profile: true
   * 動画（手術動画等）
 
 ## 語学・資格
-======
 * IELTS 5.0 (2022.09)
 * スポーツ医学検定 2級 (2021.01)
 * 世界遺産検定 2級 (2021.01)
