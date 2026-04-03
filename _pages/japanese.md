@@ -1,8 +1,7 @@
 ---
 layout: archive
 title: "Japanese"
-# permalink: /japanese/
-permalink: /
+permalink: /japanese/
 author_profile: true
 ---
 
