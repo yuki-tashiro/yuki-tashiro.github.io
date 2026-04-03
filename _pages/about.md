@@ -7,50 +7,92 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+{% include base_path %}
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Profile
+I am currently a master's student in the Graduate School of Science and Technology at Nara Institute of Science and Technology.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am conducting research on medical natural language processing in the Social Computing Laboratory.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Interests
+* Medical applications of AI
+* Medical natural language processing
+* Medical applications of multimodal models
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Education
+* 2025.04 - Present: Nara Institute of Science and Technology, Graduate School of Science and Technology, Division of Information Science
+  * Social Computing Laboratory
+  * Master's Program (expected to graduate in 2027.03)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* 2023.09 - 2024.08: Technical University of Munich, CIT-Informatics
+  * Exchange student
+  * Enrolled in a master's-level program
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* 2020.04 - 2025.03: Kyushu University, School of Engineering, Department of Mechanical and Aerospace Engineering
+  * Biomechanical Engineering Laboratory
+  * B.S.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* 2016.04 - 2019.03: Fukuoka Prefectural Shuyukan High School
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Publications
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### International Conference
+* <u>Yuki Tashiro</u>, Seiji Shimizu, Tomohiro Nishiyama, Shoko Wakamiya, and Eiji Aramaki. "MedNormJ: A Benchmark Dataset for Medical Concept Normalization in Japanese Clinical Documents." Proceedings of the 8th Clinical Natural Language Processing Workshop (ClinicalNLP 2026, Workshop), 2026/05.
+* Yuta Nakamura, Koji Fujimoto, Jonas Kluckert, Michael Krauthammer, Jun Kanzawa, Akira Katayama, Tomohiro Kikuchi, Ryo Kurokawa, Wataru Gonoi, Peitao Han, <u>Yuki Tashiro</u>, Suntaro Yada, and Eiji Aramaki. "NTCIR-18 RadNLP 2024 Overview: Dataset and Solutions for Automated Lung Cancer Staging." Proceedings of the NTCIR-18 Conference, 2025.
+* <u>Yuki Tashiro</u>, Yuta Nakamura, and Eiji Aramaki. "SOCIOCOM at the NTCIR-18 RadNLP Main Task: Zero-Shot LLM Approaches for Lung Cancer Staging." NII Institutional Repository, 2025.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Internship
+* 2025.09 - Present: Direava Co., Ltd.
+  * Engaged in the NEDO GENIAC project, "Development of a Vision-Language Integrated AI Foundation Model for Surgical Assistance"
+  * Responsible for VLM model development
+
+* 2025.08 - 2025.09: GMO Internet Group, Inc.
+  * Worked on fraud detection using payment transaction data at the scale of several million records
+  * Responsible for machine learning implementation, data analysis, and business proposals
+
+* 2024.11 - 2024.12: Social Computing Laboratory, Nara Institute of Science and Technology
+  * Evaluated dictionary-based named entity recognition for medical text data using RAG and related methods
+  * Released baseline systems and contributed to paper writing for an international shared task
+
+* 2023.12 - Present: Matsuo Institute Inc.
+  * Engaged in collaborative research on wearable device data analysis
+
+* 2023.08 - 2025.03: Matsuo Institute Inc.
+  * Worked on collaborative research in medical AI and was responsible for overall model development
+
+* 2023.05 - 2023.07: Matsuo Institute Inc.
+  * Conducted fundamental research on model architectures
+
+## Awards
+* 2nd Place, YANS2025 Competition
+* Presentation at the 20th Young Researcher Symposium on Natural Language Processing (YANS2025)
+* 8th Place, The 6th Annual Meeting of the Ophthalmology AI Society AI Competition
+* 2nd Prize, Fine-tuning RAG Chatbots on Your Own Data Competition
+* 2nd Prize, AI for Drug Development with PHIO Competition
+* 4th Place and Discussion Award, Image Inpainting Competition using the Lottery Ticket Hypothesis
+* Selected for the 15th Tobitate! (Leap for Tomorrow) Study Abroad JAPAN Program
+
+## Skills
+* Languages: Python, Linux, C
+
+* Machine Learning / Development Environment
+  * PyTorch, Hugging Face Transformers, Docker, Git, Azure, AWS, Weights & Biases, Streamlit, MySQL
+
+* Computing Resources / Implementation Experience
+  * Distributed training of Vision-Language Models across multiple nodes
+
+* Medical Data Analysis
+  * Text (radiology reports, research papers, etc.)
+  * Images (MRI, CT, ECG, microscopic images, fundus images, surgical images, etc.)
+  * Biosignal time-series data (ECG, PPG, wearable sensors, etc.)
+  * Tabular data
+  * Video (surgical videos, etc.)
+
+## Languages and Certifications
+* IELTS 5.0 (2022.09)
+* Sports Medicine Certification, Level 2 (2021.01)
+* World Heritage Certification, Level 2 (2021.01)
+* Standard Driver's License (2021.07)
+* Chinese Proficiency Test, Pre-4th Grade (2021.08)
