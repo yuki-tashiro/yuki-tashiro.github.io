@@ -23,7 +23,7 @@ repository               : "yuki-tashiro/yuki-tashiro.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_yuki-tashiro.jpg"  # "profile.png"
   name             : "Yuki Tashiro"
   pronouns         : # example: "she/her"  
   bio              : "Passionate about AI in Medicine"
