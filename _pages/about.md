@@ -48,8 +48,7 @@ I am conducting research on medical natural language processing in the Social Co
   * Responsible for VLM model development
 
 * 2025.08 - 2025.09: GMO Internet Group, Inc.
-  * Worked on fraud detection using payment transaction data at the scale of several million records
-  * Responsible for machine learning implementation, data analysis, and business proposals
+  * Conducted machine learning-based fraud detection using payment transaction data at the scale of several million records
 
 * 2024.11 - 2024.12: Social Computing Laboratory, Nara Institute of Science and Technology
   * Evaluated dictionary-based named entity recognition for medical text data using RAG and related methods
@@ -58,15 +57,12 @@ I am conducting research on medical natural language processing in the Social Co
 * 2023.12 - Present: Matsuo Institute Inc.
   * Engaged in collaborative research on wearable device data analysis
 
-* 2023.08 - 2025.03: Matsuo Institute Inc.
-  * Worked on collaborative research in medical AI and was responsible for overall model development
-
-* 2023.05 - 2023.07: Matsuo Institute Inc.
-  * Conducted fundamental research on model architectures
+* 2023.05 - 2025.03: Matsuo Institute Inc.
+  * Engaged in collaborative research on medical AI
+  * Conducted foundational research on model architectures
 
 ## Awards
 * 2nd Place, YANS2025 Competition
-* Presentation at the 20th Young Researcher Symposium on Natural Language Processing (YANS2025)
 * 8th Place, The 6th Annual Meeting of the Ophthalmology AI Society AI Competition
 * 2nd Prize, Fine-tuning RAG Chatbots on Your Own Data Competition
 * 2nd Prize, AI for Drug Development with PHIO Competition
