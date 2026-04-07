@@ -1,5 +1,6 @@
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+Here is my official page: [Yuki Tashiro](https://yuki-tashiro.github.io/)
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 
